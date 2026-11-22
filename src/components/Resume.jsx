@@ -2,23 +2,18 @@
 function Resume() {
   return (
     <section id="resume" className="section">
-      <h2>Education</h2>
+      <h2>Resume</h2>
 
-      <div className="project-card">
-        <h3>B.E. Artificial Intelligence & Machine Learning</h3>
-        <p>Ballari Institute of Technology and Management</p>
-        <p>2026</p>
-      </div>
+      <p>
+        You can download my resume using the button below.
+      </p>
 
-      <h2>Certifications</h2>
-
-      <p>Python Foundation - Infosys Springboard</p>
-      <p>Introduction to Deep Learning - Infosys Springboard</p>
-      <p>Basics of Python - Infosys Springboard</p>
-      <p>Computer Vision 101 - Infosys Springboard</p>
-
-      <a href="/resume.pdf" download className="btn">
-        Download My Resume
+      <a
+        href="/Bhaskar_GS_Resume_.pdf"
+        download="Bhaskar_GS_Resume.pdf"
+        className="btn"
+      >
+        Download Resume
       </a>
     </section>
   );
